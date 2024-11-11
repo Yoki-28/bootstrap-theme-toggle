@@ -21,6 +21,18 @@ A simple web project demonstrating a light and dark theme toggle button using **
 - JavaScript
 - Bootstrap Icons
 
+## Project Structure
+bootstrap-theme-toggle/
+├── assets/
+├── index.html
+├── script.js
+├── README.md
+
+- index.html - The main HTML file containing the structure of the webpage.
+- script.js - The JavaScript file handling the theme toggle functionality.
+- assets/ - Folder containing images, icons, or other media assets.
+- README.md - Project documentation file.
+
 ## Installation
 
 1. Clone the repository:
