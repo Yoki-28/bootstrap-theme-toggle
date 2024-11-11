@@ -11,7 +11,7 @@ A simple web project demonstrating a light and dark theme toggle button using **
 
 ## Demo
 
-![Theme Toggle Demo](Assets/demo.gif)
+![Theme Toggle Demo](Assests/Demo.gif)
 
 ## Technologies Used
 
