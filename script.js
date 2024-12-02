@@ -1,8 +1,8 @@
-const btn_id = document.getElementById("btn-id");
+const btn_elm = document.getElementById("btn-id");
 const theme = document.getElementById('bi');
 const body = document.body;
 
-btn_id.addEventListener('click',function()
+btn_elm.addEventListener('click',function()
 {
     body.classList.toggle('dark-theme');
     btn_state();
@@ -15,17 +15,17 @@ function btn_state()
 {
     if(body.classList.contains('dark-theme'))
     {
-        btn_id.textContent = "Switch to Light Theme";
-        btn_id.classList.remove('bg-dark', 'text-white');
-        btn_id.classList.add('bg-light', 'text-dark');
+        btn_elm.textContent = "Switch to Light Theme";
+        btn_elm.classList.remove('bg-dark', 'text-white');
+        btn_elm.classList.add('bg-light', 'text-dark');
         theme.classList.remove('bi-brightness-high-fill');
         theme.classList.add('bi-moon-fill');
     }
     else
     {
-        btn_id.textContent = "Switch to Dark Theme";
-        btn_id.classList.remove('bg-light', 'text-dark');
-        btn_id.classList.add('bg-dark', 'text-light');  
+        btn_elm.textContent = "Switch to Dark Theme";
+        btn_elm.classList.remove('bg-light', 'text-dark');
+        btn_elm.classList.add('bg-dark', 'text-light');  
         theme.classList.remove('bi-moon-fill');
         theme.classList.add('bi-brightness-high-fill');
     }
